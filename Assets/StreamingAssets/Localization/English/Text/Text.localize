@@ -1,0 +1,21 @@
+mainMenu,Main Menu
+newGame,New Game
+loadGame,Load Game
+settings,Settings
+exitGame,Exit Game
+continueGame,Continue Game
+saveGame,Save Game
+graphicsSettings,Graphics Settings
+soundSettings,Sound Settings
+controls,Controls
+language,Language
+back,Back
+difficulty,Difficulty
+easy,Easy
+medium,Medium
+hard,Hard
+veryHard,Very Hard
+gameplay,Gameplay
+interface,Interface
+map,Map
+linewithComma,"Line, with comma

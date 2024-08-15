@@ -1,0 +1,19 @@
+{
+    "name": "CoreTeamGamesSDK.Localization.Editor",
+    "references": [
+        "CoreTeamGamesSDK.Localization",
+        "UnityEditor.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+lineKey,text
+mainMenu,Главное меню
+newGame,Новая игра
+loadGame,Загрузить игру
+settings,Настройки
+exitGame,Выход
+continueGame,Продолжить
+saveGame,Сохранить игру
+graphicsSettings,Настройки графики
+soundSettings,Настройки звука
+controls,Управление
+language,Язык
+back,Назад
+difficulty,Сложность
+easy,Легкий
+medium,Средний
+hard,Сложный
+veryHard,Очень сложный
+gameplay,Игровой процесс
+interface,Интерфейс
+map,Карта
+linewithComma,"Строка, с запятой
