@@ -41,3 +41,5 @@ And here is list of **Localize TMP_Text group members**. List member contains 2 
 |-----------|---------------------------------------------|
 |TMP_Text   |The TMP_Text component where localize line   |
 |Line Key   |The key of line used for get localized line  |
+
+

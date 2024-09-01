@@ -715,10 +715,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 89d4e5bb-40ae-4a47-97be-956966ffad1e
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: CoreTeam SDK 3D
-  organizationId: goustytc
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 1
   disableOldInputManagerSupport: 1
