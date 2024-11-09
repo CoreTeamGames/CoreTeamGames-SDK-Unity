@@ -1,7 +1,4 @@
-﻿using Microsoft.SqlServer.Server;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.Remoting.Metadata;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace CoreTeamGamesSDK.Localization

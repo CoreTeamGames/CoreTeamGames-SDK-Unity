@@ -7,7 +7,8 @@ namespace CoreTeamGamesSDK.Localization
     /// <summary>
     /// The in-game service for get localization
     /// </summary>
-    [AddComponentMenu("CoreTeamGames/Localization/Localization Service")]
+    [DisallowMultipleComponent]
+    [AddComponentMenu("CoreTeam Games SDK/Localization/Localization Service")]
     [System.Serializable]
     public class LocalizationService : MonoBehaviour
     {

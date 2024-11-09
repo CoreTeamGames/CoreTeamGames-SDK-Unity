@@ -7,7 +7,8 @@ namespace CoreTeamGamesSDK.Localization
     /// <summary>
     /// The class for Localize a TMP_Text Assets
     /// </summary>
-    [AddComponentMenu("CoreTeamGames/Localization/Localize TextMeshPro Text")]
+    [DisallowMultipleComponent]
+    [AddComponentMenu("CoreTeam Games SDK/Localization/Localize TextMeshPro Text")]
     [RequireComponent(typeof(TMP_Text))]
     public class LocalizeTMPText : MonoBehaviour
     {
@@ -62,6 +63,8 @@ namespace CoreTeamGamesSDK.Localization
         {
             if (_textLocalizator.LineExist(_fileName, _lineKey))
             {
+                _text.isRightToLeftText = _textLocalizator.CurrentLanguage.IsRTL;
+
                 string _localizedText = _textLocalizator.GetLocalizedLine(_fileName, _lineKey);
                 if (variables.Count > 0)
                 {

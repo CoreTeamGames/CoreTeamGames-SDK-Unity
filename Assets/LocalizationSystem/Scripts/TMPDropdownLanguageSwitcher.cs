@@ -7,8 +7,8 @@ namespace CoreTeamGamesSDK.Localization
     /// <summary>
     /// The script for switch language in game with using TMP_Dropdown
     /// </summary>
-    
-    [AddComponentMenu("CoreTeamGames/Localization/TextMeshPro Dropdown Language Switcher")]
+    [DisallowMultipleComponent]
+    [AddComponentMenu("CoreTeam Games SDK/Localization/TextMeshPro Dropdown Language Switcher")]
     [RequireComponent(typeof(TMP_Dropdown))]
     public class TMPDropdownLanguageSwitcher : MonoBehaviour
     {

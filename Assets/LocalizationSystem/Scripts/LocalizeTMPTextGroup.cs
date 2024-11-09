@@ -2,11 +2,11 @@
 using UnityEngine;
 using System;
 using TMPro;
-using CoreTeamGamesSDK.Localization;
 
 namespace CoreTeamGamesSDK.Localization
 {
-    [AddComponentMenu("CoreTeamGames/Localization/Localize TextMeshPro Text Group")]
+    [DisallowMultipleComponent]
+    [AddComponentMenu("CoreTeam Games SDK/Localization/Localize TextMeshPro Text Group")]
     public class LocalizeTMPTextGroup : MonoBehaviour
     {
         #region Variables
@@ -55,6 +55,8 @@ namespace CoreTeamGamesSDK.Localization
                 if (_localizedLines.TryGetValue(localizeTMPTextGroupMember.LineKey, out string line))
                 {
                     localizeTMPTextGroupMember.Text.text = line;
+                    
+                localizeTMPTextGroupMember.Text.isRightToLeftText = _localizationService.CurrentLanguage.IsRTL;
                 }
             }
         }
