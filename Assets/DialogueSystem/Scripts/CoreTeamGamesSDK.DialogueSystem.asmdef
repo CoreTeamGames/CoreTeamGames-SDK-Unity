@@ -1,0 +1,17 @@
+{
+    "name": "CoreTeamGamesSDK.DialogueSystem",
+    "references": [
+        "GUID:b8e24fd1eb19b4226afebb2810e3c19b",
+        "GUID:07739c5d195c14c39bfd545f6f48ed5c",
+        "GUID:f7e77515f52cdd9dda1ffa0090c9b7f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

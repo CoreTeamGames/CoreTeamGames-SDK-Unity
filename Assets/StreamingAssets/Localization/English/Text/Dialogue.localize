@@ -1,0 +1,32 @@
+greeting, Hello! How can I assist you today?
+option_products, 1. Learn about products
+option_support, 2. Get support
+option_question, 3. Ask a question
+products_selected, You chose to learn about products. Which products are you interested in?
+option_electronics, 1. Electronics
+electronics_selected, You chose Electronics. Here are our popular items:
+option_smartphones, 1. Smartphones
+smartphones_selected, You chose Smartphones. Here are some popular models:
+option_model_a, 1. Model A
+option_model_b, 2. Model B
+option_model_c, 3. Model C
+thank_you," Thank you for your choice! If you have any other questions, let us know.
+support_selected, You chose to get support. What specific question do you have?
+support_order_issue, 1. Order issue
+support_technical, 2. Technical support
+support_general, 3. General questions
+order_issue_details, You chose "Order issue." Please describe your problem.
+thank_you_support, Thank you for the information! We will contact you shortly.
+technical_support_details, You chose "Technical support." What issue are you experiencing?
+thank_you_technical, Thank you for the information! We will reach out to you to resolve your issue.
+general_question_details, You chose "General questions." What question do you have?
+thank_you_general, Thank you for your question! We will try to answer it as soon as possible.
+question_selected, You chose to ask a question. What question are you interested in?
+thank_you_question, Thank you for your question! We will try to answer it as soon as possible.
+farewell, Thank you for using our service! Have a great day!
+InputContainer," Your input - "{InputContainer}"
+EnterText, Enter text
+order_issue_input, Enter text of your problem
+technical_support_input, Enter text of your problem
+general_question_input, Enter text of your question
+question_input, Enter text of your question

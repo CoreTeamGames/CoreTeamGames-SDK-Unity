@@ -1,0 +1,16 @@
+{
+    "name": "CoreTeamGamesSDK.SettingsService.Editor",
+    "references": [
+        "GUID:fe09f3e4a8853a5df92a39aaf32bd126",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

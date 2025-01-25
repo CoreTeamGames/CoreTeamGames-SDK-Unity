@@ -1,0 +1,1600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9078189017237353570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2232, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -9078189017237353570}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -4357365464801173792}
+        reroutePoints: []
+      - fieldName: _output
+        node: {fileID: -7246728955900764298}
+        reroutePoints: []
+      - fieldName: _output
+        node: {fileID: 8753556840655096397}
+        reroutePoints: []
+      - fieldName: _output
+        node: {fileID: 2908771423328036732}
+        reroutePoints: []
+      - fieldName: _output
+        node: {fileID: -38881822610627295}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -9078189017237353570}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 7493878449122637847}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: farewell
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 1
+    _overridenOutputSpeed: 0
+--- !u!114 &-8902172803682835331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -8902172803682835331}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 0
+        node: {fileID: -2177940655261616296}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -8902172803682835331}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -1305840707308176520}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: products_selected
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-7946840129057965856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5a5eb599a238e77b3d7f90920bb115, type: 3}
+  m_Name: Input Field
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -7946840129057965856}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -4033102619865588439}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -7946840129057965856}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 8753556840655096397}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _contentType: 0
+  _variableName: InputContainer
+  _descriptionLineKey: technical_support_input
+  _placeholderLineKey: EnterText
+--- !u!114 &-7821770929030180619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: -392}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -7821770929030180619}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 0
+        node: {fileID: 3250965062426208049}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -7821770929030180619}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 8360148440842720958}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: order_issue_details
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-7246728955900764298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: -392}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -7246728955900764298}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 8360148440842720958}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -7246728955900764298}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: thank_you_support
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-5493964837297913765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -5493964837297913765}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 0
+        node: {fileID: 8578304365482427195}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -5493964837297913765}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -5062349920863036099}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: smartphones_selected
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-5259486466312782239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: 568}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -5259486466312782239}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 2
+        node: {fileID: -2177940655261616296}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -5259486466312782239}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 790641587635994533}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: question_selected
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-5062349920863036099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1932907ae0b3dd32f852967fedfe63be, type: 3}
+  m_Name: Choise Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1720, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    - _output 0
+    - _output 1
+    - _output 2
+    values:
+    - _fieldName: _input
+      _node: {fileID: -5062349920863036099}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -5493964837297913765}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -5062349920863036099}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output 0
+      _node: {fileID: -5062349920863036099}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -4357365464801173792}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 1
+      _node: {fileID: -5062349920863036099}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -4357365464801173792}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 2
+      _node: {fileID: -5062349920863036099}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -4357365464801173792}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  _input: {fileID: 0}
+  _output:
+  - option_model_a
+  - option_model_b
+  - option_model_c
+--- !u!114 &-4357365464801173792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1976, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -4357365464801173792}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 0
+        node: {fileID: -5062349920863036099}
+        reroutePoints: []
+      - fieldName: _output 1
+        node: {fileID: -5062349920863036099}
+        reroutePoints: []
+      - fieldName: _output 2
+        node: {fileID: -5062349920863036099}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -4357365464801173792}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: thank_you
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-4033102619865588439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -4033102619865588439}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 1
+        node: {fileID: 3250965062426208049}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -4033102619865588439}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -7946840129057965856}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: technical_support_details
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-2177940655261616296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1932907ae0b3dd32f852967fedfe63be, type: 3}
+  m_Name: Choise Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 184, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    - _output 0
+    - _output 1
+    - _output 2
+    values:
+    - _fieldName: _input
+      _node: {fileID: -2177940655261616296}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 2712050738821997282}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -2177940655261616296}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output 0
+      _node: {fileID: -2177940655261616296}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -8902172803682835331}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 1
+      _node: {fileID: -2177940655261616296}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -267746268641564567}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 2
+      _node: {fileID: -2177940655261616296}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -5259486466312782239}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  _input: {fileID: 0}
+  _output:
+  - option_products
+  - option_support
+  - option_question
+--- !u!114 &-1571185597112428335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4a188c5bd7eb8d3a77006ff275d608, type: 3}
+  m_Name: Assign Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -1571185597112428335}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 7265473399463294144}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -1571185597112428335}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 2712050738821997282}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _variable:
+    _variableName: InputContainer
+    _variableType: 2
+    integerValue: 0
+    floatValue: 0
+    boolValue: 0
+    stringValue: dfgjm
+    enumIndexValue: 0
+--- !u!114 &-1305840707308176520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1932907ae0b3dd32f852967fedfe63be, type: 3}
+  m_Name: Choise Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 696, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    - _output 0
+    values:
+    - _fieldName: _input
+      _node: {fileID: -1305840707308176520}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -8902172803682835331}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -1305840707308176520}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output 0
+      _node: {fileID: -1305840707308176520}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: 4334724625445209233}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  _input: {fileID: 0}
+  _output:
+  - option_electronics
+--- !u!114 &-267746268641564567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -267746268641564567}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 1
+        node: {fileID: -2177940655261616296}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -267746268641564567}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 3250965062426208049}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: support_selected
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &-38881822610627295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: 568}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: -38881822610627295}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 790641587635994533}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: -38881822610627295}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: thank_you_question
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc65ae430023d1e2e81664901ea4aa07, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7265473399463294144}
+  - {fileID: 2712050738821997282}
+  - {fileID: -2177940655261616296}
+  - {fileID: -8902172803682835331}
+  - {fileID: -267746268641564567}
+  - {fileID: -5259486466312782239}
+  - {fileID: -38881822610627295}
+  - {fileID: -1305840707308176520}
+  - {fileID: 4334724625445209233}
+  - {fileID: 8578304365482427195}
+  - {fileID: -5493964837297913765}
+  - {fileID: -5062349920863036099}
+  - {fileID: -4357365464801173792}
+  - {fileID: 3250965062426208049}
+  - {fileID: -7821770929030180619}
+  - {fileID: -7246728955900764298}
+  - {fileID: -4033102619865588439}
+  - {fileID: 8753556840655096397}
+  - {fileID: 1399834863254359425}
+  - {fileID: 2908771423328036732}
+  - {fileID: -9078189017237353570}
+  - {fileID: 5808497828877269705}
+  - {fileID: 8360148440842720958}
+  - {fileID: -7946840129057965856}
+  - {fileID: 249281698063489108}
+  - {fileID: 790641587635994533}
+  - {fileID: -1571185597112428335}
+  - {fileID: 7493878449122637847}
+--- !u!114 &249281698063489108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5a5eb599a238e77b3d7f90920bb115, type: 3}
+  m_Name: Input Field
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: 248}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 249281698063489108}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 1399834863254359425}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 249281698063489108}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 2908771423328036732}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _contentType: 0
+  _variableName: InputContainer
+  _descriptionLineKey: general_question_input
+  _placeholderLineKey: EnterText
+--- !u!114 &790641587635994533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5a5eb599a238e77b3d7f90920bb115, type: 3}
+  m_Name: Input Field
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 696, y: 568}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 790641587635994533}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -5259486466312782239}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 790641587635994533}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -38881822610627295}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _contentType: 0
+  _variableName: InputContainer
+  _descriptionLineKey: question_input
+  _placeholderLineKey: EnterText
+--- !u!114 &1399834863254359425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: 248}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 1399834863254359425}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 2
+        node: {fileID: 3250965062426208049}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 1399834863254359425}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 249281698063489108}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: general_question_details
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &2712050738821997282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -72, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 2712050738821997282}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -1571185597112428335}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 2712050738821997282}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -2177940655261616296}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: greeting
+    _isLeft: 0
+    _canSkipOutput: 0
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 1
+    _overridenOutputSpeed: 0.05
+--- !u!114 &2908771423328036732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: 248}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 2908771423328036732}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 249281698063489108}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 2908771423328036732}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: thank_you_general
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &3250965062426208049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1932907ae0b3dd32f852967fedfe63be, type: 3}
+  m_Name: Choise Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 696, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    - _output 0
+    - _output 1
+    - _output 2
+    values:
+    - _fieldName: _input
+      _node: {fileID: 3250965062426208049}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -267746268641564567}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 3250965062426208049}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output 0
+      _node: {fileID: 3250965062426208049}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -7821770929030180619}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 1
+      _node: {fileID: 3250965062426208049}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -4033102619865588439}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _output 2
+      _node: {fileID: 3250965062426208049}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: 1399834863254359425}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  _input: {fileID: 0}
+  _output:
+  - support_order_issue
+  - support_technical
+  - support_general
+--- !u!114 &4334724625445209233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 4334724625445209233}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output 0
+        node: {fileID: -1305840707308176520}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 4334724625445209233}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 8578304365482427195}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: electronics_selected
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &5808497828877269705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a0313b5bc1bd392a45851a70198dbf, type: 3}
+  m_Name: Dialogue End
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2744, y: -72}
+  ports:
+    keys:
+    - _input
+    values:
+    - _fieldName: _input
+      _node: {fileID: 5808497828877269705}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 7493878449122637847}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+--- !u!114 &7265473399463294144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561f4cb1a731857dbb681a77290ebdcd, type: 3}
+  m_Name: Dialogue Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -584, y: -72}
+  ports:
+    keys:
+    - _output
+    values:
+    - _fieldName: _output
+      _node: {fileID: 7265473399463294144}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -1571185597112428335}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _output: {fileID: 0}
+--- !u!114 &7493878449122637847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2488, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 7493878449122637847}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 7493878449122637847}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: 5808497828877269705}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: 
+    _lineKey: InputContainer
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0
+--- !u!114 &8360148440842720958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5a5eb599a238e77b3d7f90920bb115, type: 3}
+  m_Name: Input Field
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: -392}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 8360148440842720958}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -7821770929030180619}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 8360148440842720958}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -7246728955900764298}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _contentType: 0
+  _variableName: InputContainer
+  _descriptionLineKey: order_issue_input
+  _placeholderLineKey: EnterText
+--- !u!114 &8578304365482427195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1932907ae0b3dd32f852967fedfe63be, type: 3}
+  m_Name: Choise Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: -712}
+  ports:
+    keys:
+    - _input
+    - _output
+    - _output 0
+    values:
+    - _fieldName: _input
+      _node: {fileID: 8578304365482427195}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: 4334724625445209233}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 8578304365482427195}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output 0
+      _node: {fileID: 8578304365482427195}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: _input
+        node: {fileID: -5493964837297913765}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  _input: {fileID: 0}
+  _output:
+  - option_smartphones
+--- !u!114 &8753556840655096397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa21894af97a50ba1290fff1ca50b0, type: 3}
+  m_Name: Dialogue Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: -72}
+  ports:
+    keys:
+    - _input
+    - _output
+    values:
+    - _fieldName: _input
+      _node: {fileID: 8753556840655096397}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _output
+        node: {fileID: -7946840129057965856}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _output
+      _node: {fileID: 8753556840655096397}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: _input
+        node: {fileID: -9078189017237353570}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  _input: {fileID: 0}
+  _output: {fileID: 0}
+  _step:
+    _characterNameKey: Seller
+    _lineKey: thank_you_technical
+    _isLeft: 0
+    _canSkipOutput: 1
+    _voice: {fileID: 8300000, guid: 0797c77e104ea5e80b329d66c42b9c5a, type: 3}
+    _emotion: {fileID: 0}
+    _overrideOutputSpeed: 0
+    _overridenOutputSpeed: 0

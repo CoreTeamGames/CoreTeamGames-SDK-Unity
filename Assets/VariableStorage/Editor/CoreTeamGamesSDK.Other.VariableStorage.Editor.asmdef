@@ -1,0 +1,17 @@
+{
+    "name": "CoreTeamGamesSDK.Other.VariableStorage.Editor",
+    "references": [
+        "GUID:07739c5d195c14c39bfd545f6f48ed5c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
